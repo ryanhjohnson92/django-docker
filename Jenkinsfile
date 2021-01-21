@@ -27,7 +27,7 @@ pipeline {
             }
             steps {
                 script {
-                    docker.withRegistry('ryanj19921c.mylabserver.com:443', 'docker_registry_login') {
+                    docker.withRegistry('https://ryanj19921c.mylabserver.com:443', 'docker_registry_login') {
                         app.push("${env.BUILD_NUMBER}")
                         app.push("latest")
                     }
