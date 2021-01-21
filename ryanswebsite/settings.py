@@ -25,7 +25,7 @@ SECRET_KEY = '2u=gk!g-44pzudev0=pumv$-3yz0%&0cmose3=pnl9k=myn0@-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ryanj19922c.mylabserver.com']
 
 
 # Application definition
