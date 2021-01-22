@@ -15,9 +15,6 @@ pipeline {
             steps {
                 script {
                     app = docker.build("django-docker")
-                    app.inside {
-                        sh 'echo $(curl localhost:80)'
-                    }
                 }
             }
         }
